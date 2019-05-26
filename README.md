@@ -5,3 +5,9 @@
 - WebSite: www.adilmar.com.br
 - Email: akanehar@gmail.com
 
+# Ementa 
+
+- Introdução
+- Tensores 
+- Introdução a machine Learning
+
