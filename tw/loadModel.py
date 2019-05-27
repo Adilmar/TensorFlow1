@@ -8,7 +8,7 @@ from keras.models import model_from_json
 # we're still going to use a Tokenizer here, but we don't need to fit it
 tokenizer = Tokenizer(num_words=3000)
 # for human-friendly printing
-labels = ['negative', 'positive']
+labels = ['negativo', 'positivo']
 
 # read in our saved dictionary
 with open('dictionary.json', 'r') as dictionary_file:
@@ -47,4 +47,4 @@ def avaliar(evalSentence):
     # predict which bucket your input belongs in
     pred = model.predict(input)
     # and print it for the humons
-    print("%s sentiment; %f%% confidence" % (labels[np.argmax(pred)], pred[0][np.argmax(pred)] * 100))
+    print("%s sentimento; %f%% confianca" % (labels[np.argmax(pred)], pred[0][np.argmax(pred)] * 100))
