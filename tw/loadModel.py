@@ -47,4 +47,4 @@ def avaliar(evalSentence):
     # predict which bucket your input belongs in
     pred = model.predict(input)
     # and print it for the humons
-    print("%s sentimento; %f%% confianca" % (labels[np.argmax(pred)], pred[0][np.argmax(pred)] * 100))
+    print("sentimento %s; com %f%% confianca" % (labels[np.argmax(pred)], pred[0][np.argmax(pred)] * 100))
