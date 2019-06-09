@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/Adilmar/TensorFlow1/master/images/banner.jpg)
+
 # TensorFlow - Curso de Introdução ao TensorFlow + Deep Learning
 
 - Ministrante: Adilmar Coelho Dantas (Doutorando em Ciência da Computação)
@@ -13,5 +15,5 @@
 - Introdução a machine Learning
 - Redes Neurais - Introdução
 - Criando sua primeira rede neural com Tensorflow
-- Deep Learning - Detecção de sentiemntos em frases
+- Deep Learning - Detecção de sentimentos em frases
 
